@@ -63,12 +63,10 @@ nav ul li a{
 }
 
 #btn-inicio span:nth-child(1){
-    color: blue;
     position: relative;
     left: 20%;
 }
 #btn-inicio span:nth-child(2){ 
-    color:red;
     position: relative;
     left: 50%;
 }
