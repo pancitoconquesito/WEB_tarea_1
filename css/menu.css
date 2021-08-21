@@ -1,24 +1,25 @@
 body{
-    width: 95%;
+    width: 85%;
     margin: 0 auto;
     font-family: 'Noto Sans JP', sans-serif;
 }
 nav{
-    margin: 2% 0 7% 0;
+    margin: 3% 0 9% 0;
 }
 h1{
-    margin-left: 2%;
+    margin-left: 1%;
     font-weight: normal;
 }
 
 nav ul li{
     
-    width: 200px;
-    height: 60px;
+    width: 170px;
+    height: 55px;
     display: flex;
     align-items: center;
     text-align: center;
-    margin: 0 2%;
+
+    margin: 0 1%;
     border: solid 2px black;
     list-style: none;
     float: left;
@@ -50,8 +51,24 @@ nav ul li a{
     direction: ltr;
     -webkit-font-feature-settings: 'liga';
     -webkit-font-smoothing: antialiased;
-  }
-  .material-icons-outlined{
-      text-align: center;
-      margin-right: 10px;
-  }
+}
+
+.material-icons-outlined{
+    text-align: center;
+    margin-right: 0px;
+      
+}
+#btn-inicio{
+    position: absolute;
+}
+
+#btn-inicio span:nth-child(1){
+    color: blue;
+    position: relative;
+    left: 20%;
+}
+#btn-inicio span:nth-child(2){ 
+    color:red;
+    position: relative;
+    left: 50%;
+}

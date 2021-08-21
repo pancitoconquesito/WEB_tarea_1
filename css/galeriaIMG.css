@@ -1,7 +1,4 @@
 .galeriaIMG{
-    width: 98%;
-    margin: 0 auto;
-
     clear: both;
 
     display: flex;
@@ -21,12 +18,15 @@
     justify-content: space-between;
 }
 .galeriaIMG .bastidorImg img{
-    width: 50%;
-    max-height: 250px;
+    width: 60%;
+    max-height: 270px;
 }
 .galeriaIMG .bastidorImg span{
     display: block;
     margin-bottom: 10px;
+}
+.galeriaIMG .bastidorImg p{
+    font-weight: bold;
 }
 
 
