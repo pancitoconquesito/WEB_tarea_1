@@ -1,19 +1,32 @@
 .galeriaIMG{
+    width: 98%;
+    margin: 0 auto;
+
     clear: both;
+
     display: flex;
     flex-wrap: wrap;
-    box-sizing: border-box;
     justify-content: space-between;
 }
 .galeriaIMG .bastidorImg{
-    width: 330px;
+    flex:  0 1 330px;
     height: 420px;
     text-align: center;
     border: solid 3px black;
-    margin: 2%;
-    flex: none;
+    margin: 1%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 .galeriaIMG .bastidorImg img{
-    
     width: 50%;
+    max-height: 250px;
 }
+.galeriaIMG .bastidorImg span{
+    display: block;
+    margin-bottom: 10px;
+}
+
+
