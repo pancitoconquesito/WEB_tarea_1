@@ -17,6 +17,9 @@
     align-items: center;
     justify-content: space-between;
 }
+.galeriaIMG .bastidorImg h3, p{
+    width: 80%;
+}
 .galeriaIMG .bastidorImg img{
     width: 60%;
     max-height: 270px;
