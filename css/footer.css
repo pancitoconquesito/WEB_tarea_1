@@ -1,6 +1,12 @@
+/* footer{
+    margin-right: 2%;
+    float: right;
+    width: 95%;
+    border: solid 2px black;
+    text-align: center;
+} */
 footer{
-    margin: 100px 0 50px 5%;
-    width: 90%;
+    margin-bottom: 50px;
     height: 80px;
     border: solid 3px black;
     text-align: center;
@@ -10,10 +16,3 @@ footer{
 }
 
 
-/*footer{
-    margin: 100px 0 50px 0;
-    float: right;
-    width: 95%;
-    border: solid 2px black;
-    text-align: center;
-}*/

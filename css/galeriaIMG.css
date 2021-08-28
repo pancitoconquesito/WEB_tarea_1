@@ -1,5 +1,6 @@
 .galeriaIMG{
     clear: both;
+    margin-bottom: 100px;
 
     display: flex;
     flex-wrap: wrap;
