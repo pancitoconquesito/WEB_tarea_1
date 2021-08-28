@@ -10,7 +10,7 @@
     height: 420px;
     text-align: center;
     border: solid 3px black;
-    margin: 1%;
+    margin: 2% 1%;
     
     display: flex;
     flex-direction: column;
